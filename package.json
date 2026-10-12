@@ -2,12 +2,17 @@
     "$schema": "https://www.schemastore.org/package.json",
     "private": true,
     "type": "module",
+    "name": "social-media-app",
+    "description": "A social media web application built with Laravel and Tailwind CSS",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "watch": "vite build --watch"
     },
     "devDependencies": {
         "@tailwindcss/vite": "^4.0.0",
+        "alpinejs": "^3.13.3",
+        "axios": "^1.6.4",
         "concurrently": "^10.0.3",
         "laravel-vite-plugin": "^3.1",
         "tailwindcss": "^4.0.0",
